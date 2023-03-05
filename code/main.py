@@ -182,9 +182,12 @@ class Game:
 		control_surf = self.font_2.render(f'CONTROL SEQ: {str(self.control_sequence).replace("-1","<").replace("1",">")}',False,'white')
 		screen.blit(control_surf,(320,560))
 
-	def display_tree(self):
+	def display_tree(self): # keep the ratio of the png
 		rbtree = pygame.image.load('../graphics/Source.gv.png')
-		rbtree = pygame.transform.smoothscale(rbtree,(420,346))
+		w,h = rbtree.get_size()
+		w_h_ratio = w/h
+		to_h = 346
+		rbtree = pygame.transform.smoothscale(rbtree,(to_h*w_h_ratio,to_h))
 		screen.blit(rbtree,(331,35))
 
 	def victory_message(self):
