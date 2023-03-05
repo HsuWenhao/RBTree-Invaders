@@ -186,6 +186,7 @@ class RedBlackTree:
         '''
             delete node z in rbTree, z need to be searched first.
         '''
+        self.lr_sequence = []
         y = z
         y_origin_color = z.color # save the color of z
         
