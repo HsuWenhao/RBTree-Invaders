@@ -7,7 +7,7 @@
 1. python >= 3.6
 2. graphviz: https://graphviz.org/download/
 3. pygame
-4. two fonts in ./fonts
+4. 需要安装 ./fonts 文件夹下的两款字体
 
 ## 介绍
 3202年，你驾驶的飞船受到太空海盗的袭击，船上的驾驶系统被破坏，为了操控飞船，你只好用船上的档案管理系统来操控飞船：
