@@ -208,7 +208,7 @@ class Game:
 				self.new_command = my_tree.delete(my_tree.search(v))
 			my_tree.draw()
 		pushed_seq = []
-		if self.tick_count >= 10:  # 1 tick per 30 frame, just like some old school arcade games
+		if self.tick_count >= 30:  # 1 tick per 30 frame, just like some old school arcade games
 			self.alien_lasers.update()
 			self.aliens.update(self.alien_direction,self.halt)
 			self.alien_position_checker()
