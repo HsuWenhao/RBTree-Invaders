@@ -1,6 +1,7 @@
 # RBTree-Invaders
-由太空侵略者和红黑树可视化生成器缝合的现代电子刑具！
-Red/Black Tree Space Invaders game inspired by Space-invaders and Red black tree and tree visualization!
++ 由太空侵略者和红黑树可视化生成器缝合的现代电子刑具！
++ Red/Black Tree Space Invaders game inspired by Space-invaders and Red black tree and tree visualization!
+![](./gameplay.png)
 
 ## Dependency
 1. python >= 3.6
