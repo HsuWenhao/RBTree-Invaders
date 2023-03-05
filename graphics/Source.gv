@@ -1,0 +1,22 @@
+digraph G {
+bgcolor="#1E1E1E"
+dpi = "80"7[color=white style=filled fillcolor=black shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+7 -> 4[color=white arrowhead=none penwidth=3]
+7 -> 13[color=white arrowhead=none penwidth=3]
+4[color=white style=filled fillcolor=black shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+4 -> 0[color=white arrowhead=none penwidth=3]
+4 -> 6[color=white arrowhead=none penwidth=3]
+0[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+6[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+13[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+13 -> 8[color=white arrowhead=none penwidth=3]
+13 -> 17[color=white arrowhead=none penwidth=3]
+8[color=white style=filled fillcolor=black shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+8 -> 10[color=white arrowhead=none penwidth=3]
+10[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+17[color=white style=filled fillcolor=black shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+17 -> 16[color=white arrowhead=none penwidth=3]
+17 -> 18[color=white arrowhead=none penwidth=3]
+16[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+18[color=white style=filled fillcolor="#F14F50" shape=circle fontcolor=white fontname="Minecraft" fontsize="16" penwidth=3]
+}
